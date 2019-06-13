@@ -47,7 +47,7 @@ They give user all permissions.
 ==== Default Role
 A Default Role is a role used by Gravitee.io when a role is not specified.
 For example, the default `PORTAL` and `MANAGEMENT` role is set to a new registered user.
-This why is a role with the lower permissions.
+That's why it is a role with the lowest permissions.
 
 You can change the default on each scope.
 
@@ -205,7 +205,7 @@ and the `READ` permission to allow you to requests policies list and resources l
 Let say that we want to create a writer role which allow a user to create documentation on APIs.
 
 === Create the `WRITER` role
-To do that, click on the (+) icon in the table header and fill a the name and the description of the new role
+To do that, click on the (+) icon in the table header and fill the name and the description of the new role
 
 .Create
 image::adminguide/newrole-create.png[Gravitee.io - Create a New Role]
